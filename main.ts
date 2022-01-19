@@ -12,11 +12,11 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
-        . . . . .
-        # # # . .
-        . # . . .
-        # # # . .
-        . . . . .
+        . # # # .
+        . . # . .
+        . . # . .
+        . . # . .
+        . # # # .
         `)
     basic.showNumber(tenpInt)
 })
